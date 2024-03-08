@@ -1,0 +1,13 @@
+public class QuintaQ {
+    public static String reverseStr(String myText) {
+        String reverseStr = "";
+        for (int i = myText.length() - 1; i >= 0; i --){
+            reverseStr = reverseStr + myText.charAt(i);
+        }
+        return reverseStr;
+    }
+    public static void main(String[] args) {
+        String myTexT1 = "Estágio Ribeirão Preto";
+        System.out.println( reverseStr(myTexT1));
+    }
+}
